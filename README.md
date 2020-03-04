@@ -1,4 +1,4 @@
-# Pyton-IP-Scanner
+# Phyton-IP-Scanner
 Scan Network Ip adresses with python
 
 --------  scan-ip.py  ---------
