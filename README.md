@@ -1,5 +1,5 @@
 # Python-IP-Scanner
-Scan Network Ip adresses with python
+Scan an Log Network IP adresses with python
 
 --------  scan-ip.py  ---------
 
