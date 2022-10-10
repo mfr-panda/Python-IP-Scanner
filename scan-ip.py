@@ -81,11 +81,11 @@ def affichage_resultats(self):
             x=x+1
     self.collect_ip=sauvegarde_ip
 
-    print "\n"*3,"#"*80
-    print "[+] Demarrage Scan \t\t:\t",time.ctime(self.start_time)
-    print "[+] Fin du Scan  \t\t:\t",time.ctime(self.endtime)
-    print "[+] Duree Totale du scan \t:\t",self.endtime-self.start_time
-    print "[+] Nombre Adresses IP Actives\t:\t",len(self.collect_ip)
+    print ("\n"*3,"#"*80)
+    print ("[+] Demarrage Scan \t\t:\t",time.ctime(self.start_time))
+    print ("[+] Fin du Scan  \t\t:\t",time.ctime(self.endtime))
+    print ("[+] Duree Totale du scan \t:\t",self.endtime-self.start_time)
+    print ("[+] Nombre Adresses IP Actives\t:\t",len(self.collect_ip))
     if self.output:
         self.save_output()
     return
