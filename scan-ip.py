@@ -108,7 +108,7 @@ def checkping(self, ip):
     recv=os.popen(ping.format(self.timeout, ip)).read()
     recv=recv.upper()
     if recv.count('TTL'):
-        print "[+]\t {} \t==> IP Active ".format(ip)
+        print ("[+]\t {} \t==> IP Active ".format(ip))
         self.collect_ip.put(ip)
     return
 
