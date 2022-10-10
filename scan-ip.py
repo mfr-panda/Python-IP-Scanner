@@ -164,7 +164,7 @@ def main():
     parser.add_option('-n','--timeout',type='string', dest="timeout", help="Specifie le nombre de tentatives par IP",default='1')
     (options, args)= parser.parse_args()
     if not options.ip:
-        print "[+] Indiquez une plage IP, ex: scan-ip.py -i 192.168.1.1-254 "
+        print ("[+] Indiquez une plage IP, ex: scan-ip.py -i 192.168.1.1-254 ")
         exit(0)
     target=options.ip
     thread=options.thread
